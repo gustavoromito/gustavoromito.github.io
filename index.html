@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-    <title>Kelvin - Bootstrap 3 Resume Theme</title>
+    <title>Gustavo R. Nogueira</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -75,10 +75,10 @@
 					<h5>ABOUT</h5>
 				</div>
 				<div class="col-lg-6">
-					<p>I'm Mobile Software Developer and Backend developer.  I'm interested in both iOS and Android, but my major focus is Objective-C and Core Data development. I'm a iOS Developer with 1 year of experience and I have already worked in this field. </p>
+					<p>I'm a Mobile Software and Backend developer.  I'm interested in both iOS and Android, but my major focus is Objective-C and Core Data development. I have already worked with iOS Development for 1 year. </p>
 				</div>
 				<div class="col-lg-3">
-					<p><a href="#"><i class="icon-file"></i></a> <sm>DOWNLOAD PDF</sm></p>
+					<p><a href="resume" download="resume"><i class="icon-file"></i></a> <sm>DOWNLOAD PDF</sm></p>
 				</div>
 				
 			</div><!--/.row -->
@@ -131,12 +131,14 @@
 				<div class="col-lg-2 col-lg-offset-1">
 					<h5>WORK</h5>
 				</div>
-	
+				<div class="col-lg-6">
+					<p><img src="assets/img/mowalogo.png" alt="" width="200" height="200" class="img-responsive"></p>
+				</div>
 				<div class="col-lg-6 col-lg-offset-3">
 					<p><t>iOS Mobile Software Developer - Intern</t><br/>
-						Onassis Ltd. <br/>
+						MoWA - Mobile Wireless Applications <br/>
 					</p>
-					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</more></p>
+					<p><more>Responsible for developing iPhone Applications. Directly involved and responsible for two big projects for one multinational.</more></p>
 				</div>
 				<div class="col-lg-3">
 					<p><sm>JUNE 2010 - JULY 2012</sm></p>
@@ -155,7 +157,25 @@
 					</div>
 					<div class="col-lg-3 centered">
 						<canvas id="javascript" height="130" width="130"></canvas>
-						<p>Javascript</p>
+						<p>Xcode</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 80,
+										color:"#1abc9c"
+									},
+									{
+										value : 20,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="bootstrap" height="130" width="130"></canvas>
+						<p>Photoshop</p>
 						<br>
 						<script>
 							var doughnutData = [
@@ -168,39 +188,21 @@
 										color : "#ecf0f1"
 									}
 								];
-								var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="bootstrap" height="130" width="130"></canvas>
-						<p>Bootstrap</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 90,
-										color:"#1abc9c"
-									},
-									{
-										value : 10,
-										color : "#ecf0f1"
-									}
-								];
 								var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
 						</script>
 					</div>
 					<div class="col-lg-3 centered">
 						<canvas id="wordpress" height="130" width="130"></canvas>
-						<p>Wordpress</p>
+						<p>Backend</p>
 						<br>
 						<script>
 							var doughnutData = [
 									{
-										value: 65,
+										value: 30,
 										color:"#1abc9c"
 									},
 									{
-										value : 35,
+										value : 70,
 										color : "#ecf0f1"
 									}
 								];
@@ -215,20 +217,38 @@
 						<script>
 							var doughnutData = [
 									{
-										value: 80,
+										value: 40,
 										color:"#1abc9c"
 									},
 									{
-										value : 20,
+										value : 60,
 										color : "#ecf0f1"
 									}
 								];
 								var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
 						</script>
 					</div>
+                    <div class="col-lg-3 centered">
+						<canvas id="illustrator" height="130" width="130"></canvas>
+						<p>Android</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 20,
+										color:"#1abc9c"
+									},
+									{
+										value : 80,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("illustrator").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
 					<div class="col-lg-3 centered">
 						<canvas id="photoshop" height="130" width="130"></canvas>
-						<p>Photoshop</p>
+						<p>Java</p>
 						<br>
 						<script>
 							var doughnutData = [
@@ -244,24 +264,7 @@
 								var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
 						</script>
 					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="illustrator" height="130" width="130"></canvas>
-						<p>Illustrator</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 50,
-										color:"#1abc9c"
-									},
-									{
-										value : 50,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("illustrator").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
+					
 
 			</div><!--/.row -->
 			<br>
@@ -282,7 +285,7 @@
 				</div>
 				<div class="col-lg-3">
 					<p>Calcs</p>
-				<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
+				<p><more>During my High School I was supposed to learn a bunch of subjects involving math and calcs. So I decided to make my homework and my life easier creating this app that used to give me the whole solution of the problems. <br/><br/>
 					<sm><i class="icon-tag"></i> design</sm></more> 
 				</p>
 				</div>
@@ -292,17 +295,17 @@
 				</div>
 				<div class="col-lg-3">
 						<p>Gym Helper</p>
-					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
+					<p><more>I developed the Gym Helper to help me in the gym. Really, it is to help me in the gym. It was better for me because since then I didn't have to print my workout routine everyday to know how and which machines I was supposed to do.<br/><br/>
 						<sm><i class="icon-tag"></i> front-end</sm></more> 
 					</p>
 				</div>
 				
 				<div class="col-lg-6 col-lg-offset-3">
-					<p><img class="img-responsive" src="assets/img/port03.jpg" alt="iphone.png"></p>
+					<p><img class="img-responsive" src="assets/img/recycle.png" alt="iphone.png"></p>
 				</div>
 				<div class="col-lg-3">
 						<p>Recycle Games</p>
-					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
+					<p><more>Recycle Games is a Plataform still in developing that helps users who want to change used games for consoles like PS4 or XBox. It works like this: you sign up and add the games that you have and the games that you would like. Then you just need to wait until the app gives you a match with someone who wants one of your games and has one the games that you want. Simples, isn't it? <br/><br/>
 						<sm><i class="icon-tag"></i> web design</sm></more> 
 					</p>
 				</div>
@@ -339,11 +342,8 @@
 				<div class="col-lg-3">
 					<p><sm>SOCIAL LINKS</sm></p>
 					<p>
-						<a href="#"><i class="icon-dribbble"></i></a>
-						<a href="#"><i class="icon-twitter"></i></a>
-						<a href="#"><i class="icon-facebook"></i></a>
-						<a href="#"><i class="icon-linkedin"></i></a>
-						<a href="#"><i class="icon-apple"></i></a>
+						<a href="https://www.facebook.com/gustavoromito" target="_blank"><i class="icon-facebook"></i></a>
+						<a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile" target="_blank"><i class="icon-linkedin"></i></a>
 
 					</p>
 				</div>
