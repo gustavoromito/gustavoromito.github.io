@@ -1256,6 +1256,26 @@ pre code {
   .col-lg-3 {
     width: 25%;
   }
+  
+  .col-lg-3 a:link {
+    color: #FFF;
+	}
+	
+	/* visited link */
+	.col-lg-3 a:visited {
+		color: #FFF;
+	}
+	
+	/* mouse over link */
+	.col-lg-3 a:hover {
+		color: #FFF;
+	}
+	
+	/* selected link */
+	.col-lg-3 a:active {
+		color: #FFF;
+	}
+  
   .col-lg-4 {
     width: 33.33333333333333%;
   }
